@@ -1,0 +1,39 @@
+.block {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.item-1 {
+    width: auto;
+    height: 24vh;
+    background: #C2C4AC;
+}
+
+.item-2 {
+    width: auto;
+    height: 72vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.item-2 .sub-1 {
+    width: 20%;
+    height: 100%;
+    background: #9EA087;
+}
+
+.item-2 .sub-2 {
+    width: 60%;
+    height: 100%;
+    background: #78786F;
+}
+
+.item-2 .sub-3 {
+    width: 20%;
+    height: 100%;
+    background: #9EA087;
+}
