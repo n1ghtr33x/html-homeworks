@@ -1,0 +1,42 @@
+.section {
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px
+}
+
+.section a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#black {
+    background-color: black;
+}
+
+#pink {
+    background-color: pink;
+}
