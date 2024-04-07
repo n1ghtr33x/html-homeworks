@@ -1,0 +1,55 @@
+.block {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    height: 96vh;
+}
+
+.item-1 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+.item-1 .sub-1 {
+    width: auto;
+    height: auto;
+    background: linear-gradient(0deg, #A5A5A3 0%, #A5A5A3 100%), linear-gradient(0deg, #979796 0%, #979796 100%), #979796;
+
+}
+
+.item-1 .sub-2 {
+    width: auto;
+    height: auto;
+    background: linear-gradient(0deg, #BABAB9 0%, #BABAB9 100%), linear-gradient(0deg, #7F816A 0%, #7F816A 100%), #979796;
+}
+
+.item-1 .sub-3 {
+    width: auto;
+    height: auto;
+    background: linear-gradient(0deg, #979796 0%, #979796 100%), linear-gradient(0deg, #979796 0%, #979796 100%), #979796;
+}
+
+.item-2 {
+    background-color: #61615C;
+    width: 100%;
+    height: 100%;
+}
+
+.item-3 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+.item-3 .sub-1 {
+    width: auto;
+    height: auto;
+    background: #78786F;
+}
+
+.item-3 .sub-2 {
+    width: auto;
+    height: auto;
+    background: #828569;
+}
