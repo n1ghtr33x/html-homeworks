@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.grid {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 91%;
+    display: flex;
+}
+
+.grid-item:nth-child(1) {
+    height: 100%;
+    width: 60%;
+    background: #8E8E8E;
+}
+
+.grid-item:nth-child(2) {
+    height: 100%;
+    width: 40%;
+    background: #727459;
+}
