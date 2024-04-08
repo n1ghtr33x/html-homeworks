@@ -1,0 +1,99 @@
+.sign-in {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    padding: 40px;
+}
+
+.login-box {
+    margin: 30px;
+    width: 600px;
+    height: 800px;
+}
+
+.sign-in img {
+    width: 300px;
+}
+
+.sign-in a {
+    text-decoration: none;
+}
+
+.login-text {
+    margin-top: 40px;
+}
+
+input {
+    width: 500px;
+    height: 60px;
+    font-size: 25px;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+}
+
+.button {
+    border-radius: 20px;
+    border: 0 solid;
+    background-color: deepskyblue;
+    color: white;
+    font-size: 30px;
+    font-family: "Cantarell Extra Bold", serif ;
+}
+
+h1 {
+    margin-top: 30px;
+    color: #4F504A;
+}
+
+.facebook {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: darkblue;
+    font-family: "Cantarell Extra Bold", serif;
+}
+
+.facebook div {
+    margin-left: 10px;
+}
+
+.forgot-password {
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.facebook img {
+    width: 48px;
+    height: 48px;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    border: 2px solid gray;
+    padding: 40px;
+    margin-top: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.sign-up span {
+    font-size: 25px;
+}
+
+.sign-up a {
+    margin-left: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color: deepskyblue;
+}
