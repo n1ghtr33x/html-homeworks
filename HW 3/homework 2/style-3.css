@@ -1,21 +1,23 @@
 .block {
     padding-top: 10px;
     padding-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
     width: 100%;
+    height: 96vh;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(6, 20%);
 }
 
 .item-1 {
-    width: auto;
-    height: 24vh;
     background: #C2C4AC;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
 }
 
 .item-2 {
-    width: auto;
-    height: 72vh;
+    grid-row-start: 2;
+    grid-row-end: 6;
     display: flex;
     flex-direction: row;
 }
