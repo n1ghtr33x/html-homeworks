@@ -1,8 +1,11 @@
 .block {
     padding-top: 10px;
     padding-bottom: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
     width: 100%;
-    height: 96vh;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(1, 100%);
     grid-template-rows: repeat(6, 20%);
