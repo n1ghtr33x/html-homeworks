@@ -1,0 +1,25 @@
+.a {
+    height: 30vh;
+    width: 100%;
+    background-color: #6B6666;
+}
+
+.container {
+    margin-top: 1vh;
+    height: 67vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .b {
+    height: 100%;
+    width: 69%;
+    background-color: #6B6666;
+}
+
+.container .c {
+    margin-left: 20px;
+    height: 100%;
+    width: 30%;
+    background-color: #6B6666;
+}
