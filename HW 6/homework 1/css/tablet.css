@@ -1,0 +1,17 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .articles {
+        flex-direction: row;
+    }
+
+    .articles .container {
+        margin: 0;
+    }
+
+    .articles .container .block {
+        margin-left: 2ch;
+        width: 100%;
+        height: 40vh;
+    }
+
+}
